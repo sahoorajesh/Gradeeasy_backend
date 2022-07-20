@@ -63,7 +63,7 @@ class SimilarityView(APIView):
             grand_final=[]
             print(name1)
             
-            os.chdir('C:/Users/vedan/OneDrive/Documents/New Folder/Minor Project/Gradeeasy/media/media')
+            os.chdir('E:/GitHub/Gradeeasy/Gradeeasy/DRF_backend/media/media')
             
             with pdfplumber.open(name1) as pdf:
                 first_page = pdf.pages[0]
@@ -118,7 +118,7 @@ class Student_uploadView(APIView):
             stu_final = []
             stu_grand_final=[]
             print(name2)
-            os.chdir('C:/Users/vedan/OneDrive/Documents/New Folder/Minor Project/Gradeeasy/media/media')
+            os.chdir('E:/GitHub/Gradeeasy/Gradeeasy/DRF_backend/media/media')
             
             with pdfplumber.open(name2) as pdf:
                 first_page = pdf.pages[0]
